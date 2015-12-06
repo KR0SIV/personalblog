@@ -29,9 +29,11 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'better_errors'
 # enables easier development for the front end
 gem 'bootstrap-sass'
+# security
+gem 'devise'
 
 # Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
+gem 'bcrypt-ruby', '~> 3.0.1' #required 3.0.1 for windows
 
 # Use Unicorn as the app server
 # gem 'unicorn'
